@@ -1,0 +1,204 @@
+body {
+    margin: 0 auto; 
+    padding: 0px;
+}
+
+.num {
+    position: absolute;
+    height: 1vh;
+    top: -3vh;
+    right: 0;
+    padding-right: 5vw;
+    font-size: 3vh;
+    color: white;
+}
+.name {
+    position: absolute;
+    height: 1vh;
+    top: 10vh;
+    left: 5vw;
+    font-size: 5vw;
+    color: white;
+}
+
+.price {
+    height: 1vh;
+    font-size: 5vw;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: red;
+    text-align: center;
+    margin-top: -5vh;
+}
+.img {
+    top: -1vh;
+    object-fit: cover;
+    height: 50vh;
+    width: 100%;
+}
+.title {
+    top: 97vh;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.grid {
+    width: 100vw;
+    overflow: hidden;
+    padding: 0 0 0 0;
+    max-width: 80em;
+    margin: 0 auto;
+}
+
+    .grid li > div {
+        background: white;
+        margin: 1em auto;
+        margin-left: 1em;
+        margin-right: 1em;
+        padding: 0;
+        text-align: center;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+        /* box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1); */
+    }
+    .grid li img {
+        height: 50%;
+        width: 100%;
+    }
+@media all and (min-width: 27em) {
+    .grid li{
+        width: 33%;
+        height: 100%;
+        float: left;
+    }
+}
+@media all and (min-width: 40em) {
+    .grid li{
+        width: 33%;
+        height: 100%;
+    }
+}
+@media all and (min-width: 60em) {
+    .grid li{
+        width: 33%;
+        height: 100%;
+    }
+}
+
+.text{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    top: 1vh;
+    font-size: 2vw;
+    --main-article-transform: translate3d(0, calc(var(--scrollTop) / -7.5), 0);
+	background-size: cover;
+	background-position: center;
+	color: var(--text);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	text-align: center;
+	/* Update: */
+	top: -1px;
+	z-index: 10;
+}
+.bg {
+    object-fit: cover;
+    height: 20vh;
+    width: 100%;
+    background-color: gray;
+}
+
+.phone {
+    padding-top: 2vh;
+    height: 1vh;
+    margin-top: 1vh;
+	color: white;
+	font-size: calc(var(--index) / 1.0);
+	text-align: right;
+	margin-right: 2vh;
+}
+
+.number {
+    height: 1vh;
+    margin-top: 1vh;
+	color: white;
+	font-size: calc(var(--index) / 1.0);
+	text-align: right;
+	margin-right: 2vh;
+}
+
+.cal {
+    height: 1vh;
+    margin-top: 1vh;
+	color: white;
+	font-size: calc(var(--index) / 1.0);
+	text-align: right;
+	margin-right: 2vh;
+}
+.telegram {
+    position: relative;
+    top: -7vh;
+    left: 1vh;
+    height: 1vh;
+    margin-top: 1vh;
+	color: white;
+	font-size: calc(var(--index) / 1.0);
+	margin-right: 2vh;
+}
+.whatsapp {
+    position: relative;
+    top: -7vh;
+    left: 1vh;
+    height: 1vh;
+    margin-top: 1vh;
+	color: white;
+	font-size: calc(var(--index) / 1.0);
+	margin-right: 2vh;
+}
+.viber {
+    position: relative;
+    top: -7vh;
+    left: 1vh;
+    height: 1vh;
+    margin-top: 1vh;
+	color: white;
+	font-size: calc(var(--index) / 1.0);
+	margin-right: 2vh;
+}
+.numer {
+    position: relative;
+    top: -7vh;
+    right: 0;
+    text-align: end;
+    height: 1vh;
+    margin-top: 1vh;
+	color: white;
+	font-size: 4vh;
+	margin-right: 2vh;
+}
+
+
+.navbar {
+    overflow: hidden;
+    height: 5vh;
+    background-color: black;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
